@@ -9,7 +9,7 @@ export const SearchResultList = ({ result }) => {
         <div 
           key={id} 
           className="search-result" 
-          onClick={() => alert(`You selected ${results}!`)}
+          onClick={() => alert(`You selected ${results.name}!`)}
         >
           {results.name}
         </div>
